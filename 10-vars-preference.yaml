@@ -15,7 +15,7 @@
   tasks:
   - name: check variables
     vars:
-     person: "shiva from task"
-     wishes: "morning from task"
+     #person: "shiva from task"
+     #wishes: "morning from task"
     ansible.builtin.debug:
       msg: "hello, {{person}} good {{wishes}}"
