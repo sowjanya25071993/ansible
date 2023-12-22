@@ -2,6 +2,5 @@
 localhost
 
 [localhost:vars]
-course= "devops from inventory"
-trainer= "siva"
-duration= "110 hours"
+person= "shiva from inventory"
+wishes= "morning from inventory"
