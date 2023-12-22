@@ -13,16 +13,16 @@
     ansible: 3
     shell: 2
    trainer: true
- tasks:
+  tasks:
   - name: print key value pair
-    ansible.builtin.debug:
-     msg: "name:{{name}}"
+     ansible.builtin.debug:
+      msg: "name:{{name}}"
   - name: print list
-    ansible.builtin.debug:
-     msg: "skills:{{skills}}"
+     ansible.builtin.debug:
+      msg: "skills:{{skills}}"
   - name: print map
-    ansible.builtin.debug:
-     msg: "experience:{{experience}}"
+     ansible.builtin.debug:
+      msg: "experience:{{experience}}"
   - name: print boolean
-    ansible.builtin.debug:
-     msg: "trainer is:{{trainer}}"
+     ansible.builtin.debug:
+      msg: "trainer is:{{trainer}}"
