@@ -1,7 +1,7 @@
 - name: data types
   hosts: localhost
   vars:
-   name: siavkumar
+   name: sivakumar
    skills:
    - devops
    - aws
@@ -15,14 +15,14 @@
    trainer: true
   tasks:
   - name: print key value pair
-     ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "name:{{name}}"
   - name: print list
-     ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "skills:{{skills}}"
   - name: print map
-     ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "experience:{{experience}}"
   - name: print boolean
-     ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "trainer is:{{trainer}}"
