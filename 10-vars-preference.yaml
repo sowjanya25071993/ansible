@@ -18,4 +18,4 @@
      person: "shiva from task"
      wishes: "morning from task"
     ansible.builtin.debug:
-      msg: "hello, {{person}}} good {{wishes}}"
+      msg: "hello, {{person}} good {{wishes}}"
