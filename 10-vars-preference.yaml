@@ -9,13 +9,13 @@
    - name: wishes
      prompt: pls enter ur wishes
      private: false
-   vars:
+  vars:
     person: "siva from play"
     wishes: "morning from play"
-   tasks:
-    - name: check variables
-      vars:
-       person: "shiva from task"
-       wishes: "morning from task"
-      ansible.builtin.debug:
-       msg: "hello, i am learning {{course}} , trainer is {{trainer}} , duration is {{duration}}"
+  tasks:
+  - name: check variables
+    vars:
+     person: "shiva from task"
+     wishes: "morning from task"
+    ansible.builtin.debug:
+      msg: "hello, i am learning {{course}} , trainer is {{trainer}} , duration is {{duration}}"
