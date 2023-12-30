@@ -4,3 +4,6 @@ localhost
 [localhost:vars]
 person= "shiva from inventory"
 wishes= "morning from inventory"
+
+[web]
+web.sowjanyaaws.xyz
